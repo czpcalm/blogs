@@ -53,7 +53,7 @@ function MessageText(props) {
 
 连续点击几次按钮：
 
-![](../images/react-messager.png)
+![](./images/react-messager.png)
 
 父组件 `Messager` 由于状态更新，需要重新执行 render 函数来更新组件，这个是符合预期的。子组件 `MessageText` 中，第一次更新，由于 `message` 属性改变，也需要更新，这个也容易理解。
 

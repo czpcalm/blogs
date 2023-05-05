@@ -39,7 +39,7 @@ CPU 完成初始化之后，会从特定的一个物理地址开始执行。以 
 
 BIOS 全名 Basic Input/Ouput System, 中文为 “基本输入输出系统”。
 
-![BIOS](../images/bios.png)
+![BIOS](./images/bios.png)
 
 BIOS 是一个预装在主板上的固件，它在通电启动阶段执行硬件的初始化和检测，并为操作系统提供运行时服务。
 
@@ -112,7 +112,7 @@ BIOS 通过启动签名判断设备是否可启动，如果可启动，就把 MB
 
 在现代 PC 中，BIOS 已经被 UEFI (Unified Extensible Firmware Interface) 取代了。
 
-![UEFI](../images/uefi.png)
+![UEFI](./images/uefi.png)
 
 相比 BIOS，UEFI 有很多优点：
 
